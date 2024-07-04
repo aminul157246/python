@@ -20,5 +20,5 @@ print(imp_line[:])     # I am a Loser -> used to copy any str
 
 # exercise
 name = 'Jennifer'
-print(name[1:-1])
+print(name[1:-1])   # ennife
 
