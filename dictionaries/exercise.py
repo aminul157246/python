@@ -1,20 +1,20 @@
-# # phone : 1234
-# # one two three four 
+# phone : 1234
+# one two three four 
 
-# phone = input('Phone : ')
+phone = input('Phone : ')
 
-# digit_mapping = {
-#     "1" : "one",
-#     "2" : 'two',
-#     "3" : 'three'
-# }
+digit_mapping = {
+    "1" : "one",
+    "2" : 'two',
+    "3" : 'three'
+}
 
-# output = ""
-# for ch in phone:
-#     output = output + digit_mapping[ch] + " "
+output = ""
+for ch in phone:
+    output = output + digit_mapping[ch] + " "
 
-# print(output)
-# # Phone : 123
+print(output)
+# Phone : 123
 # one two three
 
 print('------------------')
