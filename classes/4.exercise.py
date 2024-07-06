@@ -5,5 +5,5 @@ class Person:
         print(f'Hi I am {self.name}')
 
 take_person_name = Person("John Smith")
-print(take_person_name.name)
-take_person_name.talk()
+print(take_person_name.name)  # John Smith
+take_person_name.talk()  # Hi I am John Smith
